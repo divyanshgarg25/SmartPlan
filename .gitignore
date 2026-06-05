@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+apps/web/dist/
+.vite/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+*.local
+!.env.example
+
+# Vercel / deployment output
+.vercel/
+
+# Supabase local/temp output
+supabase/.branches/
+supabase/.temp/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
