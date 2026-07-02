@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <!-- Cloud -->
+    <g id="cloud">
+      <path stroke="#0ea5e9" stroke-dasharray="10 16" d="M -120 20 C -120 -40 -40 -60 0 -20 C 40 -100 160 -80 180 0 C 260 0 280 100 220 140 L -140 140 C -220 140 -220 40 -120 20 Z" />
+    </g>
+    <!-- Star -->
+    <g id="star">
+      <path stroke="#eab308" stroke-dasharray="10 18" d="M 0 -80 L 25 -20 L 95 -20 L 40 25 L 65 95 L 0 55 L -65 95 L -40 25 L -95 -20 L -25 -20 Z" />
+    </g>
+    <!-- Planet -->
+    <g id="planet">
+      <circle stroke="#a855f7" stroke-dasharray="10 16" cx="0" cy="0" r="70" />
+      <ellipse stroke="#a855f7" stroke-dasharray="8 14" cx="0" cy="0" rx="130" ry="35" transform="rotate(-25)" />
+    </g>
+    <!-- Leaf -->
+    <g id="leaf">
+      <path stroke="#10b981" stroke-dasharray="10 16" d="M 100 50 C 100 -100 -50 -100 -50 50 C -50 200 100 200 100 50 Z" />
+      <path stroke="#10b981" stroke-dasharray="5 12" d="M -50 50 C 25 50 50 125 100 200" />
+    </g>
+    <!-- Heart -->
+    <g id="heart">
+      <path stroke="#f43f5e" stroke-dasharray="10 16" d="M 0 50 C 0 -50 -160 -50 -160 50 C -160 150 0 250 0 250 C 0 250 160 150 160 50 C 160 -50 0 -50 0 50 Z" />
+    </g>
+    <!-- Sun -->
+    <g id="sun">
+      <circle stroke="#f97316" stroke-dasharray="8 14" cx="0" cy="0" r="45" />
+      <path stroke="#f97316" stroke-dasharray="6 12" d="M 0 -80 L 0 -50 M 0 50 L 0 80 M -80 0 L -50 0 M 50 0 L 80 0 M -57 -57 L -35 -35 M 35 35 L 57 57 M -57 57 L -35 35 M 35 -35 L 57 -57" />
+    </g>
+    <!-- Swirl -->
+    <g id="swirl">
+      <path stroke="#06b6d4" stroke-dasharray="12 20" d="M -50 150 Q -100 80 0 20 T -50 -100" />
+    </g>
+    <!-- Cross -->
+    <g id="cross">
+      <path stroke="#94a3b8" stroke-dasharray="4 12" d="M 0 -20 L 0 20 M -20 0 L 20 0" />
+    </g>
+    <!-- Dot -->
+    <g id="dot">
+      <circle stroke="#94a3b8" stroke-dasharray="2 10" cx="0" cy="0" r="15" />
+    </g>
+  </defs>
+
+  <g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.30">
+    <!-- Scattered smaller elements -->
+    <use href="#cloud" transform="translate(180, 150) scale(0.35) rotate(-5)" />
+    <use href="#star" transform="translate(850, 150) scale(0.3) rotate(15)" />
+    <use href="#planet" transform="translate(150, 780) scale(0.3) rotate(-10)" />
+    <use href="#leaf" transform="translate(800, 850) scale(0.3) rotate(25)" />
+    <use href="#heart" transform="translate(500, 480) scale(0.25) rotate(-15)" />
+    <use href="#sun" transform="translate(900, 500) scale(0.35) rotate(45)" />
+    <use href="#swirl" transform="translate(400, 850) scale(0.35) rotate(10)" />
+    
+    <!-- Extra scattered variations -->
+    <use href="#star" transform="translate(100, 450) scale(0.18) rotate(-20)" />
+    <use href="#cloud" transform="translate(700, 680) scale(0.25) rotate(12)" />
+    <use href="#leaf" transform="translate(450, 120) scale(0.2) rotate(-45)" />
+    <use href="#heart" transform="translate(250, 250) scale(0.15) rotate(20)" />
+    
+    <!-- Little crosses & dots scattered -->
+    <use href="#cross" transform="translate(300, 350) scale(0.4)" />
+    <use href="#cross" transform="translate(750, 380) scale(0.5) rotate(45)" />
+    <use href="#cross" transform="translate(600, 850) scale(0.35)" />
+    <use href="#dot" transform="translate(550, 200) scale(1)" />
+    <use href="#dot" transform="translate(200, 600) scale(0.8)" />
+    <use href="#dot" transform="translate(850, 750) scale(1.2)" />
+    <use href="#cross" transform="translate(50, 850) scale(0.4) rotate(20)" />
+    <use href="#dot" transform="translate(950, 50) scale(0.9)" />
+  </g>
+</svg>
